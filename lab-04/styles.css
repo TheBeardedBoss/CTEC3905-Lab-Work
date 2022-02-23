@@ -1,0 +1,15 @@
+nav {
+  display: flex;
+  flex-direction: column;
+  background-color: pink;
+}
+nav a {
+  background-color: pink;
+  color: black;
+  padding: 0.5em 0.2em;
+  margin: 0em;
+  transition: background-color 0.2s;
+}
+nav a :hover {
+  background-color: blue;
+}
